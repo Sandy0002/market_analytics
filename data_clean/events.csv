@@ -1,0 +1,40 @@
+Event_id,Event_Description,start_date,end_date,duration_days
+1,Lehman Brothers Bankruptcy ,15-09-2008,15-09-2008,1
+2,AIG Bailout ,16-09-2008,16-09-2008,1
+3,Global Stock Market Crash (2008) –,16-09-2008,31-10-2008,45
+4,Gaza War,27-12-2008,19-01-2009,23
+5,Arab Springs ,13-12-2010,13-12-2010,1
+6,T?hoku Earthquake and Tsunami,11-03-2011,11-03-2011,
+7,Fukushima Daiichi Nuclear Disaster,11-03-2011,11-03-2011,1
+8,Quantitative Easing 3 (QE3) by Fed – ,13-09-2012,13-09-2012,1
+9,Strong El Niño Event,01-01-2015,01-01-2016,366
+10,Volkswagen Dieselgate Scandal Publishing,18-09-2015,18-09-2015,1
+11,Brexit Referendum,13-06-2016,13-06-2016,1
+12,USA Election,15-07-2016,04-11-2016,122
+13,Trump Administration Trade Policy,19-01-2017,19-01-2017,1
+14,Facebook-Cambridge Analytica scandal Publishing,17-03-2018,17-03-2018,1
+15,US-China Trade War begins ,06-07-2018,06-07-2018,1
+16,US Federal Reserve interest rate hikes,04-12-2018,04-12-2018,1
+17,Boeing 737 MAX grounding ,13-03-2019,13-09-2013,1
+18,COVID-19 pandemic triggers market crash,09-03-2020,16-03-2020,7
+19,COVID-19 Pandemic Declared,11-03-2020,11-03-2020,1
+20,US Federal Reserve Emergency Rate Cuts & QE,15-03-2020,15-03-2020,1
+21,Global Fiscal Stimulus Packages ,19-03-2020,21-04-2020,32
+22,Zoom surges & Microsoft Teams adoption,17-04-2020,17-04-2020,1
+23,US presedentional elections,17-07-2020,08-11-2020,122
+24,Extreme Weather & Global Supply Chain Disruptions,01-01-2021,01-01-2022,365
+25,Global Inflation Surge ,17-04-2021,16-03-2022,330
+26,Russia-Ukraine War Begins,24-02-2022,24-02-2022,1
+27,Twitter acquired by Elon Musk ,27-10-2022,27-10-2022,1
+28,OpenAI ChatGPT launch ,30-11-2022,30-11-2022,1
+29,US Fed rate hikes for inflation control ,16-03-2022,26-07-2023,485
+30,Global Election Cycle - 2024,01-01-2024,31-12-2024,365
+31,"AI Stock Boom (ChatGPT, Nvidia, Microsoft) ",13-12-2023,19-01-2024,33
+32,Google unveils Gemini AI ,19-05-2024,19-05-2024,1
+33,Record Global Temperatures,01-01-2024,31-12-2024,365
+34,AI regulations in EU & US ,01-01-2025,01-01-2025,1
+35,US presedentional elections,15-07-2024,08-11-2024,122
+36,Trump Administration Trade Policy,19-01-2025,19-01-2025,1
+37,Global mid-tier banking crisis ,13-03-2025,17-04-2025,33
+38,EV & semiconductor mega mergers,13-01-2026,10-06-2026,183
+39,Middle East Conflict ,28-02-2026,10-06-2026,110
