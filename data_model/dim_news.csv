@@ -1,0 +1,50 @@
+,News_id,News_Description,start_date,end_date,duration,Category,Sentiment,Severity,year
+0,1,Reliance Power IPO disappointment after India's biggest IPO at the time,21-01-08,21-01-08,1,Economics & Finance,NEGATIVE,Low,2008
+1,2,Collapse of Lehman Brothers and Global Financial Crisis,15-09-08,15-09-08,1,Economics & Finance,NEGATIVE,Critical,2008
+2,3,Global Financial Crisis affects Indian corporates and banks,16-09-08,31-10-08,45,Economics & Finance,NEGATIVE,Critical,2008
+3,4,Emergency RBI rate cut and liquidity support,20-10-08,20-10-08,1,Health & Medicine,POSITIVE,Critical,2008
+4,5,Aggressive RBI stimulus package (repo and CRR cuts),01-02-09,01-02-09,1,Environment & Climate,NEGATIVE,Critical,2009
+5,6,Satyam Computer Services fraud confession by B. Ramalinga Raju,01-07-09,01-07-09,1,Crime & Law,NEGATIVE,Critical,2009
+6,7,Tech Mahindra acquires Satyam,13-04-09,13-04-09,1,Technology,POSITIVE,Moderate,2009
+7,8,General Election: UPA wins second term under Manmohan Singh,16-05-09,13-05-09,27,Politics,POSITIVE,Moderate,2009
+8,9,Exposure of major corruption scandals (2G spectrum controversy period),11-01-10,11-01-10,1,Politics,NEGATIVE,Critical,2010
+9,10,"US Federal Reserve ""Taper Tantrum"" signal",22-05-13,22-05-13,1,Politics,NEGATIVE,Low,2013
+10,11,"Crisis at Jet Airways and leveraged infrastructure firms during the ""taper tantrum""",22-08-13,22-08-13,1,Politics,NEGATIVE,Moderate,2013
+11,12,Narendra Modi declared BJP's PM candidate,13-09-13,13-09-13,1,Politics,POSITIVE,Moderate,2013
+12,13,India's general elections,13-04-14,13-05-14,30,Politics,POSITIVE,Moderate,2014
+13,14,RBI begins interest-rate-cut cycle,23-01-15,23-01-15,1,Environment & Climate,NEGATIVE,Critical,2015
+14,15,Reform-oriented Union Budget under NDA government,02-01-15,02-01-15,1,Economics & Finance,NEGATIVE,Critical,2015
+15,16,Merger announcement involving Sun Pharmaceutical Industries and Ranbaxy Laboratories completes,31-03-15,31-03-15,1,Technology,POSITIVE,Minimal,2015
+16,17,Strong El Niño and Weak Monsoon,13-07-15,19-09-15,122,Environment & Climate,NEGATIVE,Moderate,2015
+17,18,Launch of Reliance Jio by Reliance Industries,09-05-16,09-05-16,1,Technology,POSITIVE,Critical,2016
+18,19,India's surgical strikes across LoC,29-09-16,29-09-16,1,Health & Medicine,NEGATIVE,Critical,2016
+19,20,Demonetization announcement,11-08-16,11-08-16,1,Crime & Law,NEGATIVE,Moderate,2016
+20,21,Rollout of Goods and Services Tax (GST),07-04-17,07-04-17,1,Economics & Finance,NEGATIVE,Critical,2017
+21,22,NBFC liquidity crisis after IL&FS default,09-01-18,09-01-18,1,Economics & Finance,NEGATIVE,Critical,2018
+22,23,Default by Infrastructure Leasing & Financial Services,09-04-18,09-04-18,1,Economics & Finance,NEGATIVE,Moderate,2018
+23,24,Government supersedes IL&FS board,23-09-18,23-09-18,1,Politics,NEGATIVE,Critical,2018
+24,25,India's general elections,13-04-19,19-05-19,36,Politics,POSITIVE,Moderate,2019
+25,26,Pre-election fiscal expansion measures,02-01-19,02-01-19,1,Economics & Finance,POSITIVE,Moderate,2019
+26,27,COVID concerns begin affecting global markets,02-01-20,02-01-20,1,Health & Medicine,POSITIVE,Critical,2020
+27,28,Moratorium on Yes Bank,03-05-20,03-05-20,1,Crime & Law,NEGATIVE,Minimal,2020
+28,29,Nationwide COVID lockdown,23-03-20,23-03-20,1,Health & Medicine,NEGATIVE,Moderate,2020
+29,30,RBI emergency stimulus and moratorium package,27-03-20,27-03-20,1,Health & Medicine,NEGATIVE,Critical,2020
+30,31,Galwan Valley clash between India and China,15-06-20,15-06-20,1,Politics,NEGATIVE,Critical,2020
+31,32,Announcement of successful COVID vaccines,11-01-20,11-01-20,1,Health & Medicine,POSITIVE,Critical,2020
+32,33,Listing of Zomato,14-06-21,14-06-21,1,Entertainment & Culture,NEGATIVE,Moderate,2021
+33,34,IPO of Paytm,14-11-21,14-11-21,1,Technology,NEGATIVE,Critical,2021
+34,35,Russia & Ukraine War begins,02-01-22,02-01-22,1,Military & Defense,NEGATIVE,Critical,2022
+35,36,US Fed starts aggressive rate-hiking cycle,16-03-22,26-07-23,485,Environment & Climate,NEGATIVE,Critical,2022
+36,37,Global inflation shock,16-03-22,26-07-23,485,Economics & Finance,NEGATIVE,Critical,2022
+37,38,Hindenburg Research report against Adani Group,24-01-23,24-01-23,1,Economics & Finance,NEGATIVE,Minimal,2023
+38,39,Cancellation of Adani Enterprises FPO,02-01-23,02-01-23,1,Economics & Finance,NEGATIVE,Minimal,2023
+39,40,New tax regime implementation and fiscal consolidation efforts,04-01-23,04-01-23,1,Economics & Finance,POSITIVE,Critical,2023
+40,41,Merger of HDFC Ltd with HDFC Bank,07-01-23,07-01-23,1,Environment & Climate,NEGATIVE,Critical,2023
+41,42,"BJP wins key state elections (Madhya Pradesh, Rajasthan, Chhattisgarh)",12-01-23,12-01-23,1,Politics,POSITIVE,Critical,2023
+42,43,Extreme Heat Wave and Peak Power Demand,29-04-24,13-06-24,41,Technology,POSITIVE,Critical,2024
+43,44,Lok Sabha election results: NDA secures third term but BJP loses standalone majority,06-04-24,06-04-24,1,Politics,NEGATIVE,Moderate,2024
+44,45,Swearing-in of Modi 3.0 government,06-01-24,06-01-24,1,Politics,POSITIVE,Moderate,2024
+45,46,Expectations of global rate cuts,13-06-24,19-12-24,212,Economics & Finance,NEGATIVE,Critical,2024
+46,47,Manufacturing and infrastructure capex boom,13-01-25,31-12-25,365,Technology,POSITIVE,High,2025
+47,48,Bengal Election Results,05-01-26,05-01-26,1,Environment & Climate,POSITIVE,Moderate,2026
+48,49,"El Niño concerns, heatwave risks and monsoon uncertainty",06-01-26,06-01-26,1,Environment & Climate,NEGATIVE,Critical,2026
