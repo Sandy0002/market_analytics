@@ -2,10 +2,10 @@
 
 ## Project Highlights
 - Analyzed Nifty Midcap 150 index performance, sector behavior, and market regimes (~18 years of data).
-- Evaluated interest rate sensitivity, inflation impact (CPI/WPI), and news-driven market reactions.
-- Used **Distilled BERT** LLM model for sentiment, event type analysis for news &  events datasets.
+- Evaluated interest rate sensitivity, inflation impact (CPI/WPI), and local_events-driven market reactions.
+- Used **Distilled BERT** LLM model for sentiment, event type analysis for local_events &  global_events datasets.
 - Built a star-schema data model with `dim_calendar` and multiple fact tables.
-- Created a 5-page Power BI dashboard covering market regime, interest rates, inflation, news & events, and executive overview.
+- Created a 5-page Power BI dashboard covering market regime, interest rates, inflation, local_events & global_events, and executive overview.
 
 
 ## Table of Contents
@@ -28,24 +28,24 @@
     - [Indices / Sector Performance](#indices--sector-performance)
     - [Interest Rate Impact](#interest-rate-impact)
     - [Inflation Analysis](#inflation-analysis)
-    - [News \& Events Analysis](#news--events-analysis)
+    - [Events Analysis](#events-analysis)
   - [Recommendations](#recommendations)
   - [Power BI Dashboard](#power-bi-dashboard)
     - [1. Executive Summary](#1-executive-summary)
     - [2. Market Regime Analysis](#2-market-regime-analysis)
     - [3. Interest Rate Impact](#3-interest-rate-impact)
     - [4. Inflation Analysis](#4-inflation-analysis)
-    - [5. News \& Events Analysis](#5-news--events-analysis)
+    - [5. Events Analysis](#5-events-analysis)
   - [How To Use](#how-to-use)
 
 ## Overview
-An end to end analyis on  how macroeconomic factors—including interest rates, inflation, major news, and global events—affect the performance of the Nifty Midcap 150 and key sectoral indices. Using historical data from 2008–2026, the project identifies market regimes, evaluates sector sensitivity, and presents insights through an interactive Power BI dashboard.
+An end to end analyis on  how macroeconomic factors—including interest rates, inflation, major local_events, and global global_events—affect the performance of the Nifty Midcap 150 and key sectoral indices. Using historical data from 2008–2026, the project identifies market regimes, evaluates sector sensitivity, and presents insights through an interactive Power BI dashboard.
 
 ## Project Objectives
 - Analyze Nifty Midcap 150 index and sector-level performance across bull/bear regimes.
 - Measure interest rate sensitivity of different sectors.
 - Quantify inflation impact and correlations between CPI, WPI, and interest rates.
-- Evaluate news sentiment impact on market returns and volatility.
+- Evaluate local_events sentiment impact on market returns and volatility.
 
 ## Repository Structure
 ```
@@ -82,8 +82,8 @@ An end to end analyis on  how macroeconomic factors—including interest rates, 
 - `facts_cpi` — Consumer Price Index actual vs forecast releases.
 - `facts_wpi` — Wholesale Price Index actual vs forecast releases.
 - `facts_interest_rates` — Interest rate decisions (actual vs forecast vs previous).
-- `dim_news` — News events with sentiment, category, severity, and duration.
-- `dim_events` — Economic events calendar.
+- `dim_local_events` — local_events global_events with sentiment, category, severity, and duration.
+- `dim_global_events` — Economic global_events calendar.
 
 ## Tools Used
 - Python (data processing, EDA)
@@ -138,7 +138,7 @@ Insights
 9. **Dashboard Development** — Built interactive Power BI dashboards (5 pages).
 
 ## Analytical Model
-The data model follows a star-schema with `dim_calendar` as the central date dimension connected to all fact tables (`facts_market_indices`, `facts_cpi`, `facts_wpi`, `facts_interest_rates`, `dim_news`, `dim_events`).
+The data model follows a star-schema with `dim_calendar` as the central date dimension connected to all fact tables (`facts_market_indices`, `facts_cpi`, `facts_wpi`, `facts_interest_rates`, `dim_local_events`, `dim_global_events`).
 
 ### ER Diagram
 ![ER Diagram](docs/er_diagram.png)
@@ -177,9 +177,9 @@ The data model follows a star-schema with `dim_calendar` as the central date dim
 - Consumer utilities(FMCG, Pharma) perform better during high inflation
 - Capex-driven sectors highly volatile during inflation changes
 
-### News & Events Analysis
-- Market reacts **1.2–1.65% more to negative news than positive**
-- Negative news impact lasts **>3 months**; average recovery **6 months**
+### Events Analysis
+- Market reacts **1.2–1.65% more to negative local_events than positive**
+- Negative local_events impact lasts **>3 months**; average recovery **6 months**
 - Most stable sector: **Nifty Pharma**
 - Most volatile sectors: Auto, Bank, IT, Metal
 - Fastest recovery: **Energy, FMCG, Pharma**
@@ -208,8 +208,8 @@ The Power BI report (`market_analytics.pbix`) contains 5 pages with year and mon
 ### 4. Inflation Analysis
 ![Inflation Analysis](images/dashboard_screenshots/inflation_analysis.png)
 
-### 5. News & Events Analysis
-![News & Events Analysis](images/dashboard_screenshots/events_analysis.png)
+### 5. Events Analysis
+![Events Analysis](images/dashboard_screenshots/events_analysis.png)
 
 ## How To Use
 1. Clone the repository.
