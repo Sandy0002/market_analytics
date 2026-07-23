@@ -1,0 +1,40 @@
+,event_id,global_event_Description,start_date,end_date,duration_days,year,category,sentiment,severity
+0,1,Lehman Brothers Bankruptcy ,15-09-08,15-09-08,1,2008,Economics & Finance,NEGATIVE,Moderate
+1,2,AIG Bailout ,16-09-08,16-09-08,1,2008,Environment & Climate,NEGATIVE,Minimal
+2,3,Global Stock Market Crash (2008) –,16-09-08,31-10-08,45,2008,Economics & Finance,NEGATIVE,Minimal
+3,4,Gaza War,27-12-08,19-01-09,23,2008,Military & Defense,NEGATIVE,Critical
+4,5,Arab Springs ,13-12-10,13-12-10,1,2010,Environment & Climate,POSITIVE,Moderate
+5,6,T?hoku Earthquake and Tsunami,11-03-11,11-03-11,,2011,Disaster,NEGATIVE,Critical
+6,7,Fukushima Daiichi Nuclear Disaster,11-03-11,11-03-11,1,2011,Disaster,NEGATIVE,Moderate
+7,8,Quantitative Easing 3 (QE3) by Fed – ,13-09-12,13-09-12,1,2012,Economics & Finance,NEGATIVE,Moderate
+8,9,Strong El Niño Event,01-01-15,01-01-16,366,2015,Military & Defense,POSITIVE,High
+9,10,Volkswagen Dieselgate Scandal Publishing,18-09-15,18-09-15,1,2015,Crime & Law,NEGATIVE,Moderate
+10,11,Brexit Referendum,13-06-16,13-06-16,1,2016,Politics,NEGATIVE,Moderate
+11,12,USA Election,15-07-16,04-11-16,122,2016,Environment & Climate,POSITIVE,Moderate
+12,13,Trump Administration Trade Policy,19-01-17,19-01-17,1,2017,Economics & Finance,POSITIVE,Critical
+13,14,Facebook-Cambridge Analytica scandal Publishing,17-03-18,17-03-18,1,2018,Politics,NEGATIVE,Critical
+14,15,US-China Trade War begins ,06-07-18,06-07-18,1,2018,Politics,NEGATIVE,Critical
+15,16,US Federal Reserve interest rate hikes,04-12-18,04-12-18,1,2018,Environment & Climate,NEGATIVE,Moderate
+16,17,Boeing 737 MAX grounding ,13-03-19,13-09-13,1,2019,Technology,NEGATIVE,Critical
+17,18,COVID-19 pandemic triggers market crash,09-03-20,16-03-20,7,2020,Disaster,NEGATIVE,Critical
+18,19,COVID-19 Pandemic Declared,11-03-20,11-03-20,1,2020,Disaster,NEGATIVE,Minimal
+19,20,US Federal Reserve Emergency Rate Cuts & QE,15-03-20,15-03-20,1,2020,Economics & Finance,NEGATIVE,Critical
+20,21,Global Fiscal Stimulus Packages ,19-03-20,21-04-20,32,2020,Economics & Finance,POSITIVE,Critical
+21,22,Zoom surges & Microsoft Teams adoption,17-04-20,17-04-20,1,2020,Technology,POSITIVE,High
+22,23,US presedentional elections,17-07-20,08-11-20,122,2020,Politics,NEGATIVE,Moderate
+23,24,Extreme Weather & Global Supply Chain Disruptions,01-01-21,01-01-22,365,2021,Environment & Climate,NEGATIVE,Critical
+24,25,Global Inflation Surge ,17-04-21,16-03-22,330,2021,Economics & Finance,NEGATIVE,High
+25,26,Russia-Ukraine War Begins,24-02-22,24-02-22,1,2022,Politics,NEGATIVE,Critical
+26,27,Twitter acquired by Elon Musk ,27-10-22,27-10-22,1,2022,Environment & Climate,NEGATIVE,Moderate
+27,28,OpenAI ChatGPT launch ,30-11-22,30-11-22,1,2022,Technology,NEGATIVE,Critical
+28,29,US Fed rate hikes for inflation control ,16-03-22,26-07-23,485,2022,Economics & Finance,NEGATIVE,Critical
+29,30,Global Election Cycle - 2024,01-01-24,31-12-24,365,2024,Politics,POSITIVE,Moderate
+30,31,"AI Stock Boom (ChatGPT, Nvidia, Microsoft) ",13-12-23,19-01-24,33,2023,Technology,NEGATIVE,High
+31,32,Google unveils Gemini AI ,19-05-24,19-05-24,1,2024,Technology,NEGATIVE,Moderate
+32,33,Record Global Temperatures,01-01-24,31-12-24,365,2024,Environment & Climate,POSITIVE,Moderate
+33,34,AI regulations in EU & US ,01-01-25,01-01-25,1,2025,Economics & Finance,NEGATIVE,Critical
+34,35,US presedentional elections,15-07-24,08-11-24,122,2024,Politics,NEGATIVE,Moderate
+35,36,Trump Administration Trade Policy,19-01-25,19-01-25,1,2025,Economics & Finance,POSITIVE,Critical
+36,37,Global mid-tier banking crisis ,13-03-25,17-04-25,33,2025,Economics & Finance,NEGATIVE,Critical
+37,38,EV & semiconductor mega mergers,13-01-26,10-06-26,183,2026,Technology,NEGATIVE,Critical
+38,39,Middle East Conflict ,28-02-26,10-06-26,110,2026,Military & Defense,NEGATIVE,Critical
